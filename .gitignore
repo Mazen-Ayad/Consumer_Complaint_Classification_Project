@@ -1,0 +1,36 @@
+# ---------- Python ----------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.env
+.ipynb_checkpoints/
+
+# ---------- OS / editors ----------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ---------- Data (not redistributed; see README for the source) ----------
+*.csv
+*.zip
+splits/
+processed/
+results/
+
+# ---------- Model weights & training artefacts (too large for GitHub) ----------
+*.safetensors
+*.keras
+*.h5
+*.npz
+*.npy
+training_args.bin
+bert_out/
+models/
+
+# ---------- Created when the app runs ----------
+.gradio/
+feedback_log.csv
+predictions_*.csv
