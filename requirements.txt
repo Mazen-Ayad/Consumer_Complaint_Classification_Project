@@ -1,0 +1,14 @@
+# ---- Needed to run the Gradio app (python app.py) ----
+gradio>=4.0
+torch>=2.0
+transformers>=4.40
+numpy
+pandas
+nltk
+
+# ---- Only needed to re-run the notebooks (uncomment what you need) ----
+# tensorflow>=2.16        # Steps 3-4 (SimpleRNN / LSTM / GRU, Keras)
+# scikit-learn            # Steps 1-5 (splits, metrics, TF-IDF baseline)
+# matplotlib              # plots
+# seaborn                 # confusion matrices
+# accelerate              # Step 5 (HuggingFace Trainer)
